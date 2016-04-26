@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5C1CDE31CCF752C003099D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1CDE21CCF752C003099D3 /* main.m */; };
+		D5C1CDE61CCF752C003099D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1CDE51CCF752C003099D3 /* AppDelegate.m */; };
+		D5C1CDE91CCF752C003099D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1CDE81CCF752C003099D3 /* ViewController.m */; };
+		D5C1CDEC1CCF752C003099D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C1CDEA1CCF752C003099D3 /* Main.storyboard */; };
+		D5C1CDEE1CCF752C003099D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1CDED1CCF752C003099D3 /* Assets.xcassets */; };
+		D5C1CDF11CCF752C003099D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C1CDEF1CCF752C003099D3 /* LaunchScreen.storyboard */; };
+		D5C1CDFC1CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1CDFB1CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerTests.m */; };
+		D5C1CE071CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1CE061CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5C1CDF81CCF752C003099D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C1CDD61CCF752C003099D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C1CDDD1CCF752C003099D3;
+			remoteInfo = "20160426001-CoreAnimation-CAShapeLayer";
+		};
+		D5C1CE031CCF752C003099D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C1CDD61CCF752C003099D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C1CDDD1CCF752C003099D3;
+			remoteInfo = "20160426001-CoreAnimation-CAShapeLayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5C1CDDE1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160426001-CoreAnimation-CAShapeLayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C1CDE21CCF752C003099D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5C1CDE41CCF752C003099D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5C1CDE51CCF752C003099D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5C1CDE71CCF752C003099D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5C1CDE81CCF752C003099D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5C1CDEB1CCF752C003099D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5C1CDED1CCF752C003099D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C1CDF01CCF752C003099D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5C1CDF21CCF752C003099D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C1CDF71CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160426001-CoreAnimation-CAShapeLayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C1CDFB1CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160426001_CoreAnimation_CAShapeLayerTests.m; sourceTree = "<group>"; };
+		D5C1CDFD1CCF752C003099D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C1CE021CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160426001-CoreAnimation-CAShapeLayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C1CE061CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160426001_CoreAnimation_CAShapeLayerUITests.m; sourceTree = "<group>"; };
+		D5C1CE081CCF752C003099D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5C1CDDB1CCF752C003099D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C1CDF41CCF752C003099D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C1CDFF1CCF752C003099D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5C1CDD51CCF752C003099D3 = {
+			isa = PBXGroup;
+			children = (
+				D5C1CDE01CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer */,
+				D5C1CDFA1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests */,
+				D5C1CE051CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests */,
+				D5C1CDDF1CCF752C003099D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5C1CDDF1CCF752C003099D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1CDDE1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer.app */,
+				D5C1CDF71CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests.xctest */,
+				D5C1CE021CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C1CDE01CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1CDE41CCF752C003099D3 /* AppDelegate.h */,
+				D5C1CDE51CCF752C003099D3 /* AppDelegate.m */,
+				D5C1CDE71CCF752C003099D3 /* ViewController.h */,
+				D5C1CDE81CCF752C003099D3 /* ViewController.m */,
+				D5C1CDEA1CCF752C003099D3 /* Main.storyboard */,
+				D5C1CDED1CCF752C003099D3 /* Assets.xcassets */,
+				D5C1CDEF1CCF752C003099D3 /* LaunchScreen.storyboard */,
+				D5C1CDF21CCF752C003099D3 /* Info.plist */,
+				D5C1CDE11CCF752C003099D3 /* Supporting Files */,
+			);
+			path = "20160426001-CoreAnimation-CAShapeLayer";
+			sourceTree = "<group>";
+		};
+		D5C1CDE11CCF752C003099D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1CDE21CCF752C003099D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5C1CDFA1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1CDFB1CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerTests.m */,
+				D5C1CDFD1CCF752C003099D3 /* Info.plist */,
+			);
+			path = "20160426001-CoreAnimation-CAShapeLayerTests";
+			sourceTree = "<group>";
+		};
+		D5C1CE051CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1CE061CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerUITests.m */,
+				D5C1CE081CCF752C003099D3 /* Info.plist */,
+			);
+			path = "20160426001-CoreAnimation-CAShapeLayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5C1CDDD1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C1CE0B1CCF752C003099D3 /* Build configuration list for PBXNativeTarget "20160426001-CoreAnimation-CAShapeLayer" */;
+			buildPhases = (
+				D5C1CDDA1CCF752C003099D3 /* Sources */,
+				D5C1CDDB1CCF752C003099D3 /* Frameworks */,
+				D5C1CDDC1CCF752C003099D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160426001-CoreAnimation-CAShapeLayer";
+			productName = "20160426001-CoreAnimation-CAShapeLayer";
+			productReference = D5C1CDDE1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5C1CDF61CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C1CE0E1CCF752C003099D3 /* Build configuration list for PBXNativeTarget "20160426001-CoreAnimation-CAShapeLayerTests" */;
+			buildPhases = (
+				D5C1CDF31CCF752C003099D3 /* Sources */,
+				D5C1CDF41CCF752C003099D3 /* Frameworks */,
+				D5C1CDF51CCF752C003099D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C1CDF91CCF752C003099D3 /* PBXTargetDependency */,
+			);
+			name = "20160426001-CoreAnimation-CAShapeLayerTests";
+			productName = "20160426001-CoreAnimation-CAShapeLayerTests";
+			productReference = D5C1CDF71CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5C1CE011CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C1CE111CCF752C003099D3 /* Build configuration list for PBXNativeTarget "20160426001-CoreAnimation-CAShapeLayerUITests" */;
+			buildPhases = (
+				D5C1CDFE1CCF752C003099D3 /* Sources */,
+				D5C1CDFF1CCF752C003099D3 /* Frameworks */,
+				D5C1CE001CCF752C003099D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C1CE041CCF752C003099D3 /* PBXTargetDependency */,
+			);
+			name = "20160426001-CoreAnimation-CAShapeLayerUITests";
+			productName = "20160426001-CoreAnimation-CAShapeLayerUITests";
+			productReference = D5C1CE021CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C1CDD61CCF752C003099D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D5C1CDDD1CCF752C003099D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D5C1CDF61CCF752C003099D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5C1CDDD1CCF752C003099D3;
+					};
+					D5C1CE011CCF752C003099D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5C1CDDD1CCF752C003099D3;
+					};
+				};
+			};
+			buildConfigurationList = D5C1CDD91CCF752C003099D3 /* Build configuration list for PBXProject "20160426001-CoreAnimation-CAShapeLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5C1CDD51CCF752C003099D3;
+			productRefGroup = D5C1CDDF1CCF752C003099D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5C1CDDD1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer */,
+				D5C1CDF61CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerTests */,
+				D5C1CE011CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5C1CDDC1CCF752C003099D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1CDF11CCF752C003099D3 /* LaunchScreen.storyboard in Resources */,
+				D5C1CDEE1CCF752C003099D3 /* Assets.xcassets in Resources */,
+				D5C1CDEC1CCF752C003099D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C1CDF51CCF752C003099D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C1CE001CCF752C003099D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5C1CDDA1CCF752C003099D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1CDE91CCF752C003099D3 /* ViewController.m in Sources */,
+				D5C1CDE61CCF752C003099D3 /* AppDelegate.m in Sources */,
+				D5C1CDE31CCF752C003099D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C1CDF31CCF752C003099D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1CDFC1CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C1CDFE1CCF752C003099D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1CE071CCF752C003099D3 /* _0160426001_CoreAnimation_CAShapeLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5C1CDF91CCF752C003099D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C1CDDD1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer */;
+			targetProxy = D5C1CDF81CCF752C003099D3 /* PBXContainerItemProxy */;
+		};
+		D5C1CE041CCF752C003099D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C1CDDD1CCF752C003099D3 /* 20160426001-CoreAnimation-CAShapeLayer */;
+			targetProxy = D5C1CE031CCF752C003099D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5C1CDEA1CCF752C003099D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C1CDEB1CCF752C003099D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5C1CDEF1CCF752C003099D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C1CDF01CCF752C003099D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5C1CE091CCF752C003099D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5C1CE0A1CCF752C003099D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5C1CE0C1CCF752C003099D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160426001-CoreAnimation-CAShapeLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160426001-CoreAnimation-CAShapeLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5C1CE0D1CCF752C003099D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160426001-CoreAnimation-CAShapeLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160426001-CoreAnimation-CAShapeLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5C1CE0F1CCF752C003099D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160426001-CoreAnimation-CAShapeLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160426001-CoreAnimation-CAShapeLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160426001-CoreAnimation-CAShapeLayer.app/20160426001-CoreAnimation-CAShapeLayer";
+			};
+			name = Debug;
+		};
+		D5C1CE101CCF752C003099D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160426001-CoreAnimation-CAShapeLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160426001-CoreAnimation-CAShapeLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160426001-CoreAnimation-CAShapeLayer.app/20160426001-CoreAnimation-CAShapeLayer";
+			};
+			name = Release;
+		};
+		D5C1CE121CCF752C003099D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160426001-CoreAnimation-CAShapeLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160426001-CoreAnimation-CAShapeLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160426001-CoreAnimation-CAShapeLayer";
+			};
+			name = Debug;
+		};
+		D5C1CE131CCF752C003099D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160426001-CoreAnimation-CAShapeLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160426001-CoreAnimation-CAShapeLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160426001-CoreAnimation-CAShapeLayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5C1CDD91CCF752C003099D3 /* Build configuration list for PBXProject "20160426001-CoreAnimation-CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C1CE091CCF752C003099D3 /* Debug */,
+				D5C1CE0A1CCF752C003099D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C1CE0B1CCF752C003099D3 /* Build configuration list for PBXNativeTarget "20160426001-CoreAnimation-CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C1CE0C1CCF752C003099D3 /* Debug */,
+				D5C1CE0D1CCF752C003099D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5C1CE0E1CCF752C003099D3 /* Build configuration list for PBXNativeTarget "20160426001-CoreAnimation-CAShapeLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C1CE0F1CCF752C003099D3 /* Debug */,
+				D5C1CE101CCF752C003099D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5C1CE111CCF752C003099D3 /* Build configuration list for PBXNativeTarget "20160426001-CoreAnimation-CAShapeLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C1CE121CCF752C003099D3 /* Debug */,
+				D5C1CE131CCF752C003099D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5C1CDD61CCF752C003099D3 /* Project object */;
+}
