@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DrawView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)startAnimationClickAction:(id)sender {
+    DrawView *drawView = (DrawView *)self.view;
+    
+    [drawView startAnimation];
 }
 
 - (void)didReceiveMemoryWarning {
